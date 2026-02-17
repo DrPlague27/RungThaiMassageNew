@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="logomobile.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="rungthaimassage.css">
+    <title>Rung Thai-massage</title>
+</head>
+<body>
+  <header id="main">   
+  </header>
+    <header id="mainpage">
+        <div class="container-fluid ">
+            <div class="row d-flex">
+                <div class="col-auto"><i class="bi bi-clock-fill"></i>&nbsp;<span><span data-i18n="opening_days">Montag - Samstag</span> 
+                <span data-i18n="opening_hours">11:00 - 20:00</span></span></div>
+                <div class="col text-center"><i class="bi bi-geo-alt-fill"></i>&nbsp;<span>A-6080 Igls, Bilgerstraße 9.</span></div>
+                <div class="col-auto ms-auto"><i class="bi bi-telephone-fill"></i>&nbsp;<span>+43 (0) 676-3329507</span></div>
+            </div>
+        </div>
+    </header>
+    
+    <header id="navheader">
+  <div class="container-fluid">
+    <div class="row align-items-center">
+      <!-- LOGO -->
+      <div class="col">
+        <a href="#mainpage">
+          <img src="logo.png" class="img-fluid" id="logo">
+        </a>
+      </div>
+
+      <!-- NAV LINKS -->
+      <div class="col-auto" id="desktop-nav">
+        <nav class="d-flex gap-3">
+          <a href="#mainpage" data-i18n="nav_home">Startseite</a>
+          <a href="#aboutus " data-i18n="nav_about">Über Uns</a>
+          <a href="#service" data-i18n="nav_services">Dienstleistungen</a>
+          <a href="#pass" data-i18n="nav_pass">Pässe</a>
+          <a href="#contact" data-i18n="contact_title">Kontakt</a>
+          <a href="#ethic" data-i18n="nav_ethic">Etikette</a>
+          <a href="#story" data-i18n="nav_story">Geschichte der Thai-Massage</a>
+        </nav>
+      </div>
+      
+      <div class="col-auto">
+        <button id="hamburger-btn">
+          <i class="bi bi-list"></i>
+        </button>
+      </div>
+
+      <!-- SOCIAL ICONS -->
+      <div class="col-auto">
+        <div class="d-flex gap-4">
+          <a href="https://www.facebook.com/rung.thaimassage.77" target="_blank">
+            <i class="bi bi-facebook text-white fs-3"></i>
+          </a>
+          <i class="bi bi-instagram text-white fs-3"></i>
+        </div>
+      </div>
+
+      <!-- LANGUAGE DROPDOWN -->
+      <div class="col-auto">
+        <div class="desktop-language">
+        <div class="dropdown">
+          <button class="dropbtn" id="current-language"></button>
+          <div class="dropdown-content" id="language-menu"></div>
+        </div>
+        </div>
+
+      <div class="col-auto mobile-language">
+        <button id="lang-toggle" class="lang-btn">
+          <i class="bi bi-globe2"></i>
+        </button>
+      </div>
+
+      </div>
+    </div>
+    </div>
+  </div>
+</header>
+
+<div id="mobile-menu">
+
+  <a href="#main" data-i18n="nav_home" class="mobile-link"></a>
+  <a href="#aboutus" data-i18n="nav_about" class="mobile-link"></a>
+  <a href="#service" data-i18n="nav_services" class="mobile-link"></a>
+  <a href="#pass" data-i18n="nav_pass" class="mobile-link"></a>
+  <a href="#contact" data-i18n="contact_title" class="mobile-link"></a>
+  <a href="#ethic" data-i18n="nav_ethic" class="mobile-link"></a>
+  <a href="#story" data-i18n="nav_story" class="mobile-link"></a>
+
+</div>
+
+<div id="mobile-language-menu">
+
+  <a href="#" data-lang="de">Deutsch</a>
+  <a href="#" data-lang="en">English</a>
+  <a href="#" data-lang="hu">Magyar</a>
+  <a href="#" data-lang="th">ภาษาไทย</a>
+  <a href="#" data-lang="jp">日本語</a>
+
+</div>
+
+</div>
+
+    <section id="mainsection">
+      <div class="container-fluid">
+        <div class="row align-items-center">
+          <div class="col" >
+            <h1 data-i18n="hero_title">Willkommen bei Rung Thai Massage!</h1>
+            <span id="catchphrase" data-i18n="hero_sub">Erleben Sie authentische Thai-Massage für tiefe Entspannung.</span>
+          </div>
+        </div>
+        <div class="row align-items-center">
+  <div class="col-10 d-flex justify-content-end">
+
+    <div class="d-flex flex-column align-items-center">
+
+      <img src="Leki.jpg" alt="" class="img-fluid" title="Rungnapha Lieszkovszky">
+
+      <h2 class="pt-3 text-center" id="namecellfont">
+        Rungnapha Lieszkovszky
+      </h2>
+
+    </div>
+
+  </div>
+</div>
+        <div class="row align-items-center">
+          <div class="col-2 ps-5 pb-5 d-flex justify-content-center"><a class="btn btn-outline-light" id="servicebutton" href="#service" data-i18n="hero_button">Dienstleistungen</a></div>
+        </div>
+        <div id="mobile-contact-card">
+
+  <div class="contact-item">
+    <i class="bi bi-geo-alt-fill"></i>
+    <span>A-6080 Igls, Bilgerstraße 9.</span>
+  </div>
+
+  <div class="contact-item">
+    <i class="bi bi-clock-fill"></i>
+    <span data-i18n="opening_days"></span>
+    <span data-i18n="opening_hours"></span>
+  </div>
+
+  <div class="contact-item">
+    <i class="bi bi-telephone-fill"></i>
+    <span>+43 (0) 676-3329507</span>
+  </div>
+
+</div>
+      </div>
+
+
+
+    </section>
+    <section class="sections" id="aboutus">   
+        <div class="container-fluid " id="rolunk">
+          <div class="row align-items-center" >
+            <div class="col-lg-5 col-md-12 ms-lg-5 mb-4 mb-lg-0" style="background-color:rgba(0, 0, 0,0.8); border-radius: 75px; padding: 2.5rem;">
+              <h1 style="font-size: 155%;" data-i18n="about_title">
+                Welcome to Rung Thaimassage!
+              </h1>
+              <span data-i18n="about_text">
+
+              </span>
+                <div class="about-checklist">
+
+                    <div class="about-item">
+                      <i class="bi bi-check-lg"></i>
+                      <span data-i18n="about_point1"></span>
+                    </div>
+
+                    <div class="about-item">
+                      <i class="bi bi-check-lg"></i>
+                      <span data-i18n="about_point2"></span>
+                    </div>
+
+                    <div class="about-item">
+                      <i class="bi bi-check-lg"></i>
+                      <span data-i18n="about_point3"></span>
+                    </div>
+
+                    <div class="about-item">
+                      <i class="bi bi-check-lg"></i>
+                      <span data-i18n="about_point4"></span>
+                    </div>
+
+                    <div class="about-item">
+                      <i class="bi bi-check-lg"></i>
+                    <span data-i18n="about_point5"></span>
+                    </div>
+
+                  </div>
+                  </div>
+            <div class="col-lg-6 col-md-12 d-flex justify-content-center">
+                <img src="massage1.jpg" alt="" class="ms-5">
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!--<section id="reviews" class="sections">
+      <div class="container text-center py-5">
+        <h1 data-i18n="reviews_title">What Our Guests Say</h1>
+    
+       Paste widget embed code here -->
+
+<section class="sections" id="service">
+
+  <div class="services-wrapper">
+
+    <h1 class="services-title" data-i18n="services_title">
+      Unsere Dienstleistungen
+    </h1>
+
+    <div class="services-grid">
+
+      <!-- FOOT -->
+      <div class="service-card">
+        <h2 data-i18n="service_foot">Fußmassage</h2>
+        <hr class="hrmain">
+
+        <h3>30<span data-i18n="minute_short"></span> - €40</h3>
+        <hr class="subhr">
+
+        <h3>60<span data-i18n="minute_short"></span> - €60</h3>
+
+        <img src="footmassage.png" class="serviceicons">
+      </div>
+
+      <!-- THAI -->
+      <div class="service-card">
+        <h2 data-i18n="service_thai">Thai Massage</h2>
+        <hr class="hrmain">
+
+        <h3>30<span data-i18n="minute_short"></span> - €40</h3>
+        <hr class="subhr">
+
+        <h3>60<span data-i18n="minute_short"></span> - €60</h3>
+        <hr class="subhr">
+
+        <h3>90<span data-i18n="minute_short"></span> - €70</h3>
+        <hr class="subhr">
+
+        <h3>120<span data-i18n="minute_short"></span> - €90</h3>
+
+        <img src="lotus.png" class="serviceicons">
+      </div>
+
+      <!-- OIL -->
+      <div class="service-card">
+        <h2 data-i18n="service_oil">Ölmassage</h2>
+        <hr class="hrmain">
+
+        <h3>30<span data-i18n="minute_short"></span> - €40</h3>
+        <hr class="subhr">
+
+        <h3>60<span data-i18n="minute_short"></span> - €60</h3>
+        <hr class="subhr">
+
+        <h3>90<span data-i18n="minute_short"></span> - €80</h3>
+        <hr class="subhr">
+
+        <h3>120<span data-i18n="minute_short"></span> - €85</h3>
+
+        <img src="oil.png" class="serviceicons">
+      </div>
+
+      <!-- HERBAL -->
+      <div class="service-card">
+        <h2 data-i18n="service_herbal">Kräutermassage</h2>
+        <hr class="hrmain">
+
+        <h3>90<span data-i18n="minute_short"></span> - €85</h3>
+        <hr class="subhr">
+
+        <h3>120<span data-i18n="minute_short"></span> - €115</h3>
+
+        <img src="herbal.png" class="serviceicons">
+      </div>
+
+    </div>
+  </div>
+</section>
+
+ <section class="sections" id="pass">
+
+  <div class="container-fluid pass-wrapper pass-container">
+    <div id="passtitle">
+    <h1 class="text-center mb-5" data-i18n="pass_title">
+      Pässe, Rabatte und Gutscheine!
+    </h1>
+    </div>
+    <div class="pass-grid">
+
+      <!-- CARD 1 -->
+      <div class="pass-card">
+        <h2 data-i18n="pass1_title">10er-Pass</h2>
+        <hr class="hrmainpass">
+        <p data-i18n="pass1_text">
+          Kaufen Sie einen 10er-Pass für langfristige Entspannung.
+        </p>
+      </div>
+
+      <!-- CARD 2 -->
+      <div class="pass-card">
+        <h2 data-i18n="pass2_title">Geburtstagsrabatt</h2>
+        <hr class="hrmainpass">
+        <p data-i18n="pass2_text">
+          Feiern Sie Ihren Geburtstag mit einem Sonderrabatt.
+        </p>
+      </div>
+
+      <!-- CARD 3 -->
+      <div class="pass-card">
+        <h2 data-i18n="pass3_title">Geschenkgutschein</h2>
+        <hr class="hrmainpass">
+        <p data-i18n="pass3_text">
+         Überraschen Sie jemanden mit einem Gutschein.
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+  <section class="sections" id="contact">
+    <div class="container-fluid mb-5">
+        <div class="row text-center align-items-center">
+          <div class="col-12 pt-5">
+            <h1 data-i18n="contact_title">Kontakt</h1>
+          </div>
+        </div>
+        <div class="row customcontactcss align-items-stretch">
+          <div class="col-lg-4 col-md-12 mb-4 mb-lg-0 d-flex">
+            <div class="map-wrapper">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2709.2840889304857!2d11.409409576705759!3d47.2305887138668!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479d699f7be48b4b%3A0x950c5230028c50fb!2sThe%20Rung%20Thai%20Massage%20-%20Innsbruck%2C%20Igls!5e0!3m2!1shu!2shu!4v1770908152547!5m2!1shu!2shu" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+            <a href="https://www.google.com/maps/place/The+Rung+Thai+Massage+-+Innsbruck,+Igls/@47.2304615,11.4119437,3a,75y,37.61h,88t/data=!3m7!1e1!3m5!1sbnj16VIxmXXxdvxGugJxGQ!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D2.0001379204598777%26panoid%3Dbnj16VIxmXXxdvxGugJxGQ%26yaw%3D37.608811894340505!7i16384!8i8192!4m14!1m7!3m6!1s0x479d699f7be48b4b:0x950c5230028c50fb!2sThe+Rung+Thai+Massage+-+Innsbruck,+Igls!8m2!3d47.2305851!4d11.4119845!16s%2Fg%2F11c2pkdt9v!3m5!1s0x479d699f7be48b4b:0x950c5230028c50fb!8m2!3d47.2305851!4d11.4119845!16s%2Fg%2F11c2pkdt9v?entry=ttu&g_ep=EgoyMDI2MDIwOS4wIKXMDSoASAFQAw%3D%3D" target="_blank" 
+   rel="noopener noreferrer"><img src="location.png" alt=""></a>
+    </div>
+      <div class="col-lg-3 col-md-12 d-flex mb-4 mb-lg-0 align-items-end " id="contactlist">
+        <div class="d-flex flex-column gap-4">
+
+          <div class="d-flex align-items-center gap-3">
+            <i class="bi bi-geo-alt-fill"></i>
+            <span>A-6080 Igls, Bilgerstraße 9.</span>
+          </div>
+
+          <div class="d-flex align-items-center gap-3">
+            <i class="bi bi-clock-fill"></i>
+            <span><span data-i18n="opening_days">Montag - Samstag</span> 
+            <span data-i18n="opening_hours">11:00 - 20:00</span></span>
+          </div>
+
+          <div class="d-flex align-items-center gap-3">
+            <i class="bi bi-telephone-fill"></i>
+            <span>+43 (0) 676-3329507</span>
+          </div>
+
+          <div class="d-flex align-items-center gap-3">
+            <i class="bi bi-envelope-fill"></i>
+            <span>thaimassage.innsbruck@gmail.com</span>
+          </div>
+        </div>
+      </div>     
+    </div>
+  </section>
+
+  <section class="sections" id="ethic">
+    <div class="container-fluid d-flex align-items-center m-5 mt-1" >
+      <div class="row justify-content-center align-items-stretch">
+        <div class="col-lg-5 col-md-12 customethicccs mb-4 mb-lg-0">
+          <h2 class="mb-5" data-i18n="ethic_booking_title"></h2>
+          <span data-i18n="ethic_booking_text">
+            Termine können ausschließlich telefonisch vereinbart werden. Unsere Mitarbeiter reservieren Ihren gewünschten Termin für Sie.
+Falls Sie einen Termin absagen müssen, bitten wir Sie, uns mindestens 24 Stunden im Voraus zu informieren.
+            <br><br>
+            Bei Absagen innerhalb von 24 Stunden oder bei Nichterscheinen berechnen wir den vollen Preis der Massage bzw. wird bei einem Pass die Einheit abgezogen.
+            <br><br>
+            Bitte erscheinen Sie pünktlich – bei uns sind Zeit und Komfort jedes Gastes gleichermaßen wichtig.
+          </span>
+        </div>
+        
+        <div class="col-lg-5 col-md-12 customethicccs mb-4 mb-lg-0">
+            <h2 class="mb-5" data-i18n="ethic_etiquette_title"></h2>
+          <span data-i18n="ethic_etiquette_text">
+            Für eine ruhige und ungestörte Entspannung bitten wir Sie, während der Massage Ihr Mobiltelefon nicht zu benutzen und laute Gespräche zu vermeiden, da dies die Erholung anderer Gäste stören kann.              <br><br>
+            Wir möchten ausdrücklich darauf hinweisen, dass die bei uns angebotenen Massagen keine erotischen Dienstleistungen beinhalten.
+              <br><br>
+            Bitte beachten Sie, dass bereits eine Verspätung von 10–15 Minuten die Dauer der Behandlung sowie das Erlebnis der nachfolgenden Gäste beeinflussen kann. Im Falle einer Verspätung kann sich die Massagezeit entsprechend verkürzen.              <br><br>
+            Időpont lemondását legkésőbb 24 órával a foglalt időpont előtt tudjuk elfogadni (kivételt képezhet betegség vagy baleset). Amennyiben nem történik lemondás, az időpontot felhasználtnak tekintjük.
+          </span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sections" id="story">
+    <div class="container-fluid d-flex align-items-center mt-3 mb-4">
+      <div class="row align-items-start">
+        <div class="col-lg-5 col-md-12 customstorycss mb-4 mb-lg-0">
+          <h2  data-i18n="story_title">Die Geschichte der Thai-Massage</h2>
+          <span data-i18n="story_text">
+           Eine Terminabsage akzeptieren wir spätestens 24 Stunden vor dem vereinbarten Termin (ausgenommen Krankheit oder Unfall). Erfolgt keine Absage, gilt der Termin als in Anspruch genommen.
+          </span>
+        </div>
+        <div class="col-lg-5 col-md-12" id="storyimage">
+            <img src="whatpho.jpg" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer id="footer">
+    <div class="container-fluid pt-2">
+      <div class="row align-items-center">
+        <div class="col-3 d-flex flex-column align-items-start gap-1">
+          <a href="#main"><img src="logo.png" alt="" id="footerrow1"></a>
+          <a class="btn btn-outline-light" id="footerbutton" href="#main" data-i18n="footer_back">Zürück zur Startseite</a>
+        </div>
+        <div class="col-3 d-flex flex-column align-items-center gap-3">
+
+  <a href="#contact"
+     class="btn btn-outline-light customfooterbtncss"
+     style="border: none;">
+     <h4 data-i18n="footer_contact"></h4>
+  </a>
+
+  <span class="text-center">
+    <i class="bi bi-geo-alt-fill"></i>
+    A-6080 Igls, Bilgerstraße 9.<br>
+
+    <i class="bi bi-clock-fill"></i>
+    <span data-i18n="footer_opening"></span><br>
+
+    <i class="bi bi-telephone-fill"></i>
+    +43 (0) 676-3329507<br>
+
+    <i class="bi bi-envelope-fill"></i>
+    <span data-i18n="footer_email_label"></span>
+    thaimassage.innsbruck@gmail.com
+  </span>
+
+</div>
+        <div class="col-3 d-flex flex-column align-items-center gap-3">
+          <a href="#service" class="btn btn-outline-light customfooterbtncss" style="border: none;"><h4 data-i18n="footer_services">Services</h4></a>
+          <span class="text-center">
+          <span data-i18n="service_foot"></span><br>
+          <span data-i18n="service_thai"></span><br>
+          <span data-i18n="service_oil"></span><br>
+          <span data-i18n="service_herbal"></span><br>
+          </span>
+        </div>
+        <div class="col-3 d-flex flex-column align-items-center gap-3 mt-3">
+          <a href="impressum.html" class="link-underline-light" data-i18n="footer_legal1">Impressum</a><a href="privacy.html" data-i18n="footer_legal2">Datenschutz</a><a href="AGB.html" data-i18n="footer_legal3">AGB</a><a href="serviceconditions.html" data-i18n="footer_legal4">Nutzungsbedingungen</a>
+        </div>
+      </div>
+      <div class="row align-items-center mt-3 pb-2">
+        <div class="col-6 d-flex flex-column align-items-end gap-3">© 2026 Rungthai-massage </div>
+        <div class="col-6 d-flex flex-column align-items-start gap-3">© 2026 TivarisAi </div>
+      </div>
+    </div>
+  </footer>
+
+<script src="language.js"></script>
+
+</body>
+</html>
+
