@@ -1555,3 +1555,10 @@ section {
 .legal-container p {
   line-height: 1.7;
 }
+
+@media  (max-width:600px){
+  .customethicccs{
+    margin:0;
+    overflow:hidden
+  }
+}
